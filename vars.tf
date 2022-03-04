@@ -9,8 +9,3 @@ variable "sleepy_time" {
   description = "How long our local-exec will take a nap."
   default     = 0
 }
-
-variable "release_version" {
-  description = "Verifying purpose"
-  default     = "13.0.0"
-}
